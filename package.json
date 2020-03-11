@@ -1,0 +1,19 @@
+{
+  "name": "backend-todo",
+  "version": "1.0.0",
+  "description": "backend para aplicação de tarefas a fazer",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon -L ./src/index.js"
+  },
+  "author": "Rodrigo Gonçalves Santana",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.10.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
